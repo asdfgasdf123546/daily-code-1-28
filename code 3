@@ -1,0 +1,8 @@
+def sum_even_number(max_num):
+    sum = 0
+    for i in range(max_num+1):
+        if i%2==0:
+            sum+=i #add all numbers
+    return sum
+        
+print(sum_even_number(10))
