@@ -1,0 +1,12 @@
+def find_smallest(x ,y ,z):
+    if x<y and x<z:
+        print("x is the smallest number")
+        return x
+    elif y<x and y<z:
+        print("y is the smallest number")
+        return y
+    elif z<y and z<x:
+        print("z is the smallest number")
+        return z
+    
+print(find_smallest(50,8,20))
